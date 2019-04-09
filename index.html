@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="vue-app">
+        <h1>{{git}}</h1>
         <form>
                     <label>
                         id:
@@ -64,12 +65,13 @@
     //     }
     // })
     Vue.config.keyCodes.f2=133
-   
+  
     new Vue({
         el:"#vue-app",
         data() {
 
             return {
+                git:"测试git",
                 id:"",
                 name:"",
                 keywords:"",
